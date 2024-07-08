@@ -1,0 +1,28 @@
+import pygame
+
+WIDTH = 600
+HEIGHT = 600
+EMPTY = 0
+# row&colums
+ROW = 5
+COL = 5
+SQSIZE = WIDTH // COL
+LINE_WIDTH = 15
+CIR_WIDTH=15
+CROSS_WIDTH=20
+RADUIS=SQSIZE // 4
+OFFSET=50
+screen = pygame.display.set_mode((WIDTH, HEIGHT))
+
+# COLORS
+BG_COLOR =(52, 52, 52)
+LINE_COLOR =(243, 243, 243)
+CIR_COLOR=(142, 139, 130)
+CROSS_COLOR=(233, 220, 190)
+
+
+
+
+
+
+
